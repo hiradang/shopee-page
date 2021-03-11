@@ -4,6 +4,9 @@
     --black-color: #000;
     --primary-color: #ff6533;
     --border-color: #dbdbdb;
+
+    --header-height: 120px;
+    --header-navbar-height: 36px;
 }
 
 * {
