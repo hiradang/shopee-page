@@ -148,8 +148,22 @@
                     </div>
 
                     <div class="header__search">
-                        <input type="text" class="header__search-input" placeholder="Tìm kiếm trong shop">
-                        
+                        <div class="header__search-input-wrapper">
+                            <input type="text" class="header__search-input" placeholder="Tìm kiếm trong shop">
+                            <div class="header__search-history">
+                                <div class="header__search-history-heading">Lịch sử tìm kiếm</div>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="" class="header__search-history-link">Sữa rửa mặt</a>
+                                    </li>
+
+                                    <li class="header__search-history-item">
+                                        <a href="" class="header__search-history-link">Kem chống nắng</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    
                         <div class="header__search-select">
                             <span class="header__search-select-label">Trong shop</span>
                             <i class="header__search-select-icon fas fa-chevron-down"></i>
@@ -173,7 +187,84 @@
                     </div>
 
                     <div class="header__cart">
-                        <i class="fas header__cart-icon fa-shopping-cart"></i>
+                        <div class="header__cart-wrapper">
+
+                            <!-- Cart content -->
+                            <div class="header__cart-list">
+                                <img src="./assets/img/header__cart/no-cart.png" alt="" class="header__cart-list-no-cart-img">
+                                <div class="header__cart-list-no-cart-info">
+                                    Chưa có sản phẩm
+                                </div>
+
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-product-list">
+
+                                    <li class="header__cart-product-item">
+                                        <img src="./assets/img/header__cart/product_1.jpg" alt="" class="header__cart-product-img">
+                                        <div class="header__cart-product-info">
+                                            <div class="header__cart-product-desc-up">
+                                                <h5 class="header__cart-product-name">Bộ kem đặc trị vùng mắt</h5>
+                                                <div class="header__cart-product-money">
+                                                    <span class="header__cart-product-price">2.000.000đ</span>
+                                                    <span class="header__cart-product-multiply">x</span>
+                                                    <span class="header__cart-product-quantity">3</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-product-desc-down">
+                                                <div class="header__cart-product-desc">Phân loại giá: Bạc</div>
+                                                <span class="header__cart-product-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-product-item">
+                                        <img src="./assets/img/header__cart/product_1.jpg" alt="" class="header__cart-product-img">
+                                        <div class="header__cart-product-info">
+                                            <div class="header__cart-product-desc-up">
+                                                <h5 class="header__cart-product-name">Bộ kem đặc trị vùng mắt</h5>
+                                                <div class="header__cart-product-money">
+                                                    <span class="header__cart-product-price">2.000.000đ</span>
+                                                    <span class="header__cart-product-multiply">x</span>
+                                                    <span class="header__cart-product-quantity">3</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-product-desc-down">
+                                                <div class="header__cart-product-desc">Phân loại giá: Bạc</div>
+                                                <span class="header__cart-product-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-product-item">
+                                        <img src="./assets/img/header__cart/product_1.jpg" alt="" class="header__cart-product-img">
+                                        <div class="header__cart-product-info">
+                                            <div class="header__cart-product-desc-up">
+                                                <h5 class="header__cart-product-name">Bộ kem đặc trị vùng mắt</h5>
+                                                <div class="header__cart-product-money">
+                                                    <span class="header__cart-product-price">2.000.000đ</span>
+                                                    <span class="header__cart-product-multiply">x</span>
+                                                    <span class="header__cart-product-quantity">3</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-product-desc-down">
+                                                <div class="header__cart-product-desc">Phân loại giá: Bạc</div>
+                                                <span class="header__cart-product-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+
+                                <a class="header__cart-product-btn">Xem giỏ hàng</a>
+                            </div>
+
+                            <!-- Cart button -->
+                            <i class="fas header__cart-icon fa-shopping-cart"></i>
+                            <span class="header__cart-notice">3</span>
+                        </div>
                     </div>
                 </div>
             </div>
