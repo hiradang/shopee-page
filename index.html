@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <title>Shopee</title>
 </head>
 <body>
@@ -19,7 +20,7 @@
             <div class="grid wide">
 
                 <!-- Nav bar -->
-                <div class="header__navbar">
+                <div class="header__navbar hide-on-mobile-tablet">
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item header__navbar-item--seperate">
                             Vào cửa hàng trên ứng dụng Shopee
@@ -157,7 +158,7 @@
 
                 <!-- Header with search -->
                 <div class="header-with-search">
-                    <div class="header__logo">
+                    <div class="header__logo hide-on-mobile-tablet">
                         <a href="/" class="header__logo-link">
                             <svg viewBox="0 0 192 65" class="header__logo-img">
                                 <g fill-rule="evenodd">
@@ -405,10 +406,28 @@
                     </div>
                 </div>
             </div>
+
+            <ul class="header__sort-bar">
+                <li class="header__sort-item header__sort-item--active">
+                    <a href="" class="header__sort-link">Liên quan</a>
+                </li>
+
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Mới nhất</a>
+                </li>
+
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Bán chạy</a>
+                </li>
+
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Giá</a>
+                </li>
+            </ul>
         </header>
 
         <div class="container">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="row">
                     <div class="col l-2">
                         <nav class="category">
@@ -438,7 +457,7 @@
                     </div>
 
                     <div class="col l-10">
-                        <div class="home-filter">
+                        <div class="home-filter hide-on-mobile-tablet">
                             <div class="home-filter-label">Sắp xếp theo</div>
                             <button class="home-filter__button home-filter__button--active">Phổ biến</button>
                             <button class="home-filter__button">Mới nhất</button>
@@ -1110,7 +1129,7 @@
         </div>
 
         <footer class="footer">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="row">
                     <div class="col l-2-4">
                         <h3 class="footer-heading">CHĂM SÓC KHÁCH HÀNG</h3>
@@ -1195,7 +1214,7 @@
                             <a href="" class="footer-download-qr-link">
                                 <img src="./assets/img/header__qr/qrcode.png" alt="" class="footer-download-qr-img">
                             </a>
-                            
+
                             <div class="footer-download-apps">
                                 <a href="footer-download-app-link">
                                     <img src="./assets/img/header__qr/appstore.png" alt="" class="footer-download-app-img">
@@ -1210,7 +1229,7 @@
                 </div>
             </div>
 
-            <div class="grid">
+            <div class="grid wide">
                 <div class="footer-copyrights">
                     <i class="footer-copyrights-icon far fa-copyright"></i>
                     2021 - Bản quyền thuộc về F8 Shop
